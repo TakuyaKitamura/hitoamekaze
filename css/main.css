@@ -1,0 +1,162 @@
+/* -------------------------initialize---------------------- */
+
+* {
+	margin:0;
+	padding:0;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Osaka;
+	font-size:13px;
+	line-height:1.8;
+	color: #333333;
+	letter-spacing:1px;
+}
+
+
+a {
+color:#333333;
+text-decoration: underline;
+}
+
+a:hover {
+color:#F00;
+text-decoration:none;
+}
+
+.clear {
+clear:both;
+}
+
+.clearfix:after {  
+    content: ".";  
+     display: block;       
+	 visibility: hidden;  
+    height: 0.1px;  
+    font-size: 0.1em;  
+     line-height: 0;  
+   clear: both;  
+ }
+ 
+ .clearfix {
+ display: inline-block;
+ }
+ 
+ .alt {
+text-indent:-9999px;
+font-size:0px;
+ }
+
+/* -----font-size----- */
+
+.f9 { font-size:77%; }
+.f10 { font-size:85%; }
+.f11 { font-size:93%; }
+.f12 { font-size:100%; }
+.f13 { font-size:108%; }
+.f14 { font-size:116%; }
+.f15 { font-size:123.1%; }
+.f16 { font-size:131%; }
+.f17 { font-size:138.5%; }
+.f18 { font-size:146.5%; }
+.f19 { font-size:153.9%; }
+.f20 { font-size:161.6%; }
+.f21 { font-size:167%; }
+.f22 { font-size:174%; }
+.f23 { font-size:182%; }
+.f24 { font-size:189%; }
+.f25 { font-size:197%; }
+
+/* -----font-color----- */
+
+.green { color:#360; }
+.red { color:#900; }
+.blue {color:#3a86a8;}
+.white {color:#FFFFFF;}
+.grey {color:#CCCCCC; font-size:inherit;}
+.orange{color:#C60;}
+.black {color:#333333;font-size:inherit;}
+.b1 {color:#993300; font-weight:bold;font-size:inherit;}
+
+/* -----IE7 ----- */
+*:first-child+html dammy {
+
+}
+/* -----IE6 ----- */
+*html dammy {
+
+}
+
+
+/* -----bgblack----- */
+.bgblack {
+	background-color:#000;	
+}
+
+/* -----body----- */
+
+body {
+	
+}
+
+/* ----- firefox ----- */
+html  {
+	overflow-y:scroll;
+}
+
+/* ----- align ----- */
+.right {
+text-align:right;
+
+}
+
+/* ----------------------center ---------------------- */
+
+div#wrapper {
+text-align:center;
+margin:0;
+
+}
+
+div#container {
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+/* ----------------------toppage ---------------------- */
+
+h1.top_title {
+	text-indent:-9999px;	
+}
+
+div.titlearea {
+	margin-left:auto;
+	margin-right:auto;
+	width:130px;
+	height:600px;
+	background:url(../img/top/toptitle.gif) top center no-repeat;	
+	text-align:center;
+	margin-top:50px;
+}
+
+div.topnavi_area {
+	position:relative;
+	top:360px;
+	left:5px;
+	width:120px;
+	border-top:#CCC solid 1px;
+	padding-top:20px;
+}
+
+img.works_b {
+	position:absolute;
+	left:20px;
+	top:30px;
+}
+
+img.about_b {
+	position:absolute;	
+	left:70px;
+	top:30px;
+}
+
